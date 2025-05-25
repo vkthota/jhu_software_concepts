@@ -1,38 +1,32 @@
-# Project Setup and Running Instructions
-
-Welcome, collaborator! Follow these steps to set up and run the Personal Website project on your local machine.
+Markdown
 
 # Running the Personal Website Application
 
-1. Clone the Repository
+## 1. Clone the Repository
 
-Run the below commands in the terminal.
+If you haven't already, clone the repository:
 
-git clone https://github.com/vkthota/jhu_software_concepts.git
-
-
+```bash
+git clone [https://github.com/vkthota/jhu_software_concepts.git](https://github.com/vkthota/jhu_software_concepts.git)
 cd jhu_software_concepts
-
-
-
 2. Set Up Environment & Install Dependencies
 It's recommended to use a Python virtual environment.
 
 From the project's root directory (jhu_software_concepts):
 
-#Command to Create and activate a virtual environment
-python -m venv venv 
+Bash
 
-#Commad to activate
-source venv/bin/activate  # macOS/Linux command to activate
-.\venv\Scripts\activate   # Windows command to activate
+# Optional: Create and activate a virtual environment
+# python -m venv venv
+# source venv/bin/activate  # macOS/Linux
+# .\venv\Scripts\activate   # Windows
 
 # Install required packages
 pip install -r requirements.txt
-
-
 3. Run the Application
 The main application script run.py is located in the module_1 subdirectory.
+
+Bash
 
 # Navigate to the module_1 directory
 cd module_1
@@ -40,7 +34,6 @@ cd module_1
 # Run the application
 python run.py
 You should see output indicating the Flask development server is running, typically on http://127.0.0.1:8000/ or http://0.0.0.0:8000/.
-
 
 4. Access in Browser
 Open your web browser and navigate to:
