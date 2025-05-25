@@ -3,9 +3,9 @@
     <h1 class="site-title"><a href="{{ url_for('pages.home') }}">My Website</a></h1>
     <nav class="main-navigation">
         <ul>
-            <li><a href="{{ url_for('pages.home') }}">Home</a></li>
-            <li><a href="{{ url_for('pages.projects') }}">Projects</a></li>
-            <li><a href="{{ url_for('pages.contact') }}">Contact</a></li>
+            <li><a href="{{ url_for('pages.home') }}" class="{% if request.endpoint == 'pages.home' %}active{% endif %}">Home</a></li>
+            <li><a href="{{ url_for('pages.projects') }}" class="{% if request.endpoint == 'pages.projects' %}active{% endif %}">Projects</a></li>
+            <li><a href="{{ url_for('pages.contact') }}" class="{% if request.endpoint == 'pages.contact' %}active{% endif %}">Contact</a></li>
         </ul>
     </nav>
 </div>
