@@ -21,10 +21,10 @@ pip install -r requirements.txt
 Step 6 - Run the Application
 The main application script run.py is located in the module_1 subdirectory.
 
-# Navigate to the module_1 directory
+Navigate to the module_1 directory
 cd module_1
 
-# Run the application
+Run the application
 python run.py
 You should see output indicating the Flask development server is running, typically on http://127.0.0.1:8000/ or http://0.0.0.0:8000/.
 
