@@ -26,7 +26,7 @@ Navigate to the module_1 directory using the below command
 
 Run the application using the below command
 - python run.py
-You should see output indicating the Flask development server is running, typically on http://127.0.0.1:8000/ or http://0.0.0.0:8000/.
+- You should see output indicating the Flask development server is running, typically on http://127.0.0.1:8000/ or http://0.0.0.0:8000/.
 
 Step 7 - Access in Browser
 Open your web browser and navigate to:
