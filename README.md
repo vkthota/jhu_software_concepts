@@ -3,7 +3,7 @@ These instructions are for Windows.
 Step 1 - Open terminal
 
 Step 2 - Clone the repository using the below command
-git clone https://github.com/vkthota/jhu_software_concepts.git
+- git clone https://github.com/vkthota/jhu_software_concepts.git
 
 Step 3 - change directory by using the below command
 cd jhu_software_concepts
