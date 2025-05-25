@@ -28,8 +28,7 @@ Run the application
 python run.py
 You should see output indicating the Flask development server is running, typically on http://127.0.0.1:8000/ or http://0.0.0.0:8000/.
 
-
-4. Access in Browser
+Step 7 - Access in Browser
 Open your web browser and navigate to:
 
 http://127.0.0.1:8000
