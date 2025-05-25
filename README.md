@@ -9,6 +9,8 @@ Welcome, collaborator! Follow these steps to set up and run the Personal Website
 Run the below commands in the terminal.
 
 git clone https://github.com/vkthota/jhu_software_concepts.git
+
+
 cd jhu_software_concepts
 
 
