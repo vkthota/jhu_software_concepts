@@ -1,0 +1,11 @@
+{# File: PersonalWebsite/templates/_navigation.html #}
+<div class="container">
+    <h1 class="site-title"><a href="{{ url_for('pages.home') }}">My Website</a></h1>
+    <nav class="main-navigation">
+        <ul>
+            <li><a href="{{ url_for('pages.home') }}">Home</a></li>
+            <li><a href="{{ url_for('pages.projects') }}">Projects</a></li>
+            <li><a href="{{ url_for('pages.contact') }}">Contact</a></li>
+        </ul>
+    </nav>
+</div>
