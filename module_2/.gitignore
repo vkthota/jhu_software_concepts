@@ -1,0 +1,6 @@
+# Virtual environments
+venv/
+.venv/ # Common alternative name
+env/   # Another common alternative
+ENV/
+__pycache__/
