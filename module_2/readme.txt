@@ -101,6 +101,6 @@
          - The `robot_checker.py` script can be run separately (`python robot_checker.py`) to verify `robots.txt` permissions for specific paths on The GradCafe.
 
 
-5. Known Bugs / Limitations
+5. Known Bugs 
    --------------------------
 	N/A
