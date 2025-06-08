@@ -4,7 +4,7 @@ from clean import clean_data     # Aclean.py contains clean_data
 from file_ops import save_data, load_data # file_ops.py for these
 
 # --- Configuration for the main run ---
-BASE_SEARCH_URL = "https://www.thegradcafe.com/survey/?q=Computer+Science"
+BASE_SEARCH_URL = "https://www.thegradcafe.com/survey/"
 OUTPUT_FILENAME = "applicant_data.json"
 MAX_PAGES_TO_SCRAPE = 500  # Adjust as needed
 MAX_ENTRIES_TO_SCRAPE = 10000 # Assignment limit
