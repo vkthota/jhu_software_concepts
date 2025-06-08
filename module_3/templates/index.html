@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Database Query Results</title>
+    <style>
+        body { font-family: sans-serif; line-height: 1.6; margin: 2em; background-color: #f4f4f4; color: #333; }
+        .container { max-width: 800px; margin: auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        h1 { color: #0056b3; }
+        .result-item { border-bottom: 1px solid #eee; padding: 15px 0; }
+        .question { font-weight: bold; }
+        .answer { color: #0056b3; font-size: 1.2em; margin-left: 1em; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Analysis of Graduate School Admissions</h1>
+
+        {% for question, answer in query_results %}
+            <div class="result-item">
+                <p class="question">{{ question }}</p>
+                <p class="answer">{{ answer }}</p>
+            </div>
+        {% endfor %}
+
+    </div>
+</body>
+</html>
