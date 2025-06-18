@@ -11,7 +11,7 @@ build:
 sphinx:
    configuration: docs/source/conf.py
 
-# Install your project's dependencies
+# Install your project dependencies
 python:
    install:
    - requirements: requirements.txt
