@@ -1,16 +1,15 @@
 version: 2
 
-# Set the version of Python to use
 build:
   os: ubuntu-22.04
   tools:
     python: "3.10"
 
-# Tell Sphinx where your configuration file is located
+# This section tells Sphinx where the documentation source is
 sphinx:
   configuration: module_4/docs/source/conf.py
 
-# Tell pip where to find your requirements file
+# This section tells pip where the requirements file is
 python:
   install:
     - requirements: module_4/requirements.txt
