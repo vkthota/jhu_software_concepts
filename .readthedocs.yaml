@@ -1,17 +1,16 @@
-# .readthedocs.yaml
 version: 2
 
-# Set the version of Python and other tools
+# Set the version of Python to use
 build:
   os: ubuntu-22.04
   tools:
     python: "3.10"
 
-# Tell Sphinx what directory your conf.py file is in
+# Tell Sphinx where your configuration file is located
 sphinx:
-   configuration: docs/source/conf.py
+  configuration: module_4/docs/source/conf.py
 
-# Install your project dependencies
+# Tell pip where to find your requirements file
 python:
-   install:
-   - requirements: requirements.txt
+  install:
+    - requirements: module_4/requirements.txt
